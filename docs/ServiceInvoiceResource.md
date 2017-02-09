@@ -1,0 +1,47 @@
+# NfeClient::ServiceInvoiceResource
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**id** | **String** | Identificação | [optional] 
+**environment** | **String** | Ambiente de Processamento | 
+**flow_status** | **String** | Status do processamento | [optional] 
+**flow_message** | **String** | Mensagem de processamento | [optional] 
+**provider** | [**LegalPerson**](LegalPerson.md) | Prestador dos serviços | [optional] 
+**borrower** | [**Person**](Person.md) | Tomador dos serviços | [optional] 
+**batch_number** | **Integer** | Número do lote da RPS | [optional] 
+**batch_check_number** | **String** | Número do protocolo do lote da RPS | [optional] 
+**number** | **Integer** | Número do NFE | [optional] 
+**check_code** | **String** | Código de Verificação da NFE | [optional] 
+**status** | **String** | Status da NFE | [optional] 
+**rps_type** | **String** | Tipo da RPS | [optional] 
+**rps_status** | **String** | Status da RPS | [optional] 
+**taxation_type** | **String** | Tipo da tributação | [optional] 
+**issued_on** | **DateTime** | Data de emissão | [optional] 
+**cancelled_on** | **DateTime** | Data de cancelamento | [optional] 
+**rps_serial_number** | **String** | Número de serie da RPS | [optional] 
+**rps_number** | **Integer** | Número da RPS | [optional] 
+**city_service_code** | **String** | Código do servico prestado no Municipio | [optional] 
+**federal_service_code** | **String** | Código do servico prestado federal | [optional] 
+**description** | **String** | Descrição do serviço no municipio | [optional] 
+**services_amount** | **Float** | Valor do serviços | [optional] 
+**deductions_amount** | **Float** | Valor de deduções | [optional] 
+**discount_unconditioned_amount** | **Float** | Valor do desconto incondicionado | [optional] 
+**discount_conditioned_amount** | **Float** | Valor do desconto condicionado | [optional] 
+**base_tax_amount** | **Float** | Valor da base de calculo de impostos | [optional] 
+**iss_rate** | **Float** | Aliquota do ISS | [optional] 
+**iss_tax_amount** | **Float** | Valor do ISS | [optional] 
+**ir_amount_withheld** | **Float** | Valor retido do Imposto de Renda (IR) | [optional] 
+**pis_amount_withheld** | **Float** | Valor retido do PIS | [optional] 
+**cofins_amount_withheld** | **Float** | Valor retido do COFINS | [optional] 
+**csll_amount_withheld** | **Float** | Valor retido do CSLL | [optional] 
+**inss_amount_withheld** | **Float** | Valor retido do INSS | [optional] 
+**iss_amount_withheld** | **Float** | Valor retido do ISS | [optional] 
+**others_amount_withheld** | **Float** | Valor de outras retenções | [optional] 
+**amount_withheld** | **Float** | Valor das retenções | [optional] 
+**amount_net** | **Float** | Valor líquido | [optional] 
+**approximate_tax** | [**ServiceInvoiceApproximateTaxesResource**](ServiceInvoiceApproximateTaxesResource.md) | Tributos aproximados | [optional] 
+**created_on** | **DateTime** | Data de criação | [optional] 
+**modified_on** | **DateTime** | Data da última modificação | [optional] 
+
+
